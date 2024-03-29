@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: darkcyan;
+    text-align: center;
+}
+
+.container{
+    height:70vh; /*70% of veiw port height*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.8vmin;
+
+}
+.game{
+    height:60vmin;
+    width :60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.8vmin;
+
+}
+.box{
+    height:18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    box-shadow: inset color( rgb(26, 1, 1));
+    font-size: 8vmin;
+    color: brown;
+    background-color: blanchedalmond;
+}
+
+#reset{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: black;
+    color: aliceblue;
+    border: color rgb(58, 75, 64);
+    border-radius: 1rem; 
+}
+
+#newgame{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: black;
+    color: aliceblue;
+    border: color rgb(58, 75, 64);
+    border-radius: 1rem; 
+}
+
+#msg{
+    font-size: 3rem ;
+    color: bisque;
+}
+
+.msgbox{
+    height:  20vmin;
+
+}
+.hide{
+    display: none;
+}
